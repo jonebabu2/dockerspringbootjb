@@ -15,6 +15,7 @@ spec:
       containers:
         - name: springboot
           image: jonebabu2/integration:jhooq-docker-demo1
+          imagePullPolicy: Always
           ports:
             - containerPort: 8080
           env:
