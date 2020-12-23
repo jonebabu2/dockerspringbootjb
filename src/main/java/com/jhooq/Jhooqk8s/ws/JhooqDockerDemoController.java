@@ -8,6 +8,6 @@ public class JhooqDockerDemoController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "Hello - JonesB-k8s I Have updated the message";
+        return "Merry Christmas Everyone..!";
     }
 }
